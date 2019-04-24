@@ -25,11 +25,13 @@ const mhs = {
   
   setInterval(tick, 1000);*/
 
-function HelloWorld (props){
-    return <h1>Hello {props.nama} World from Component (function)</h1>
-}
+// function HelloWorld (props){
+//     return <h1>Hello {props.nama} World from Component (function)</h1>
+// }
 
-ReactDOM.render(<HelloWorld nama="Muhammad Abi"/>, document.getElementById('root'));
+// ReactDOM.render(<HelloWorld nama="Muhammad Abi"/>, document.getElementById('root'));
+
+ReactDOM.render(<App/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
